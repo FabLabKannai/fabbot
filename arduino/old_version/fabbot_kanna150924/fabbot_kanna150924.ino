@@ -114,7 +114,8 @@ void loop(){
         for ( pos = 110; pos > 70; pos -= 1 ) {
             eye_servo.write( pos );
             delay( 15 );
-        } ;         
+        } ; 
+/*        
         for ( pos = 70; pos < 90; pos += 1 ) {
             eye_servo.write( pos );
             delay( 15 );
@@ -130,7 +131,8 @@ void loop(){
         for ( pos = 70; pos < 90; pos += 1 ) {
             head_servo.write( pos );
             delay( 15 );
-        } ;           
+        } ;      
+       */
       break;
 
       case 'n': //正面
